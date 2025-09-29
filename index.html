@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>smooflix - Projekt</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
-        h1 { color: #333; }
-        .info { background-color: #f4f4f4; padding: 20px; border-radius: 5px; }
-        .warning { background-color: #ffeeee; color: #cc0000; padding: 10px; border-radius: 5px; margin-top: 20px; border: 1px solid #cc0000; }
-    </style>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <h1>smooflix</h1>
-    <div class="info">
-        <p>Dieses Projekt wurde automatisch am 29.09.2025 um 08:28 Uhr erstellt.</p>
-        <p>Datenbank: smooflix</p>
-        <p>Datenbank-Benutzer: smooflix</p>
+    <div class="wrapper">
+        <header>
+            <h1>Smooflix</h1>
+            <p>Entdecke deinen perfekten Smoothie</p>
+        </header>
+        <main>
+            <section id="inputs">
+                <label for="smoothieName" hidden>Smoothie Name</label>
+                <input type="text" id="smoothieName" placeholder="Smoothie Name">
+                <input type="submit" value="Smoothie generieren">
+            </section>
+            <section id="content"></section>
+        </main>
     </div>
 </body>
 </html>
