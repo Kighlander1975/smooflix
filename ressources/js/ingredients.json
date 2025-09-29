@@ -57,6 +57,10 @@
       "standard": "Feigen"
     },
     {
+      "eingabe": ["feuriger", "gefeuerter", "heißer", "fire"],
+      "standard": "Chilliflocken"
+    },
+    {
       "eingabe": ["granatapfel", "granatäpfel", "granatapfelkerne"],
       "standard": "Granatapfel"
     },
