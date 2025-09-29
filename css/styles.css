@@ -168,6 +168,24 @@ h6 {
   padding: 13px 15px;
   box-sizing: border-box;
 }
+.wrapper main section#inputs div input[type="text"]::placeholder {
+  color: #aaaaaa;
+  opacity: 1;
+}
+.wrapper main section#inputs div input[type="text"]::-webkit-input-placeholder {
+  color: #aaaaaa;
+}
+.wrapper main section#inputs div input[type="text"]::-moz-placeholder {
+  color: #aaaaaa;
+  opacity: 1;
+}
+.wrapper main section#inputs div input[type="text"]:-ms-input-placeholder {
+  color: #aaaaaa;
+}
+.wrapper main section#inputs div input[type="text"]:-moz-placeholder {
+  color: #aaaaaa;
+  opacity: 1;
+}
 .wrapper main section#inputs div input[type="submit"] {
   background: linear-gradient(135deg, #8b7ed8 0%, #6b5895 100%);
   cursor: pointer;

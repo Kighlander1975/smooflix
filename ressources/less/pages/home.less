@@ -57,8 +57,30 @@
                     box-sizing: border-box;
                 }
                 input[type="text"] {
-                    // Spezifische Stile für Textfelder
+                    &::placeholder {
+                        color: #aaaaaa;
+                        opacity: 1;
+                    }
+
+                    &::-webkit-input-placeholder {
+                        color: #aaaaaa;
+                    }
+
+                    &::-moz-placeholder {
+                        color: #aaaaaa;
+                        opacity: 1;
+                    }
+
+                    &:-ms-input-placeholder {
+                        color: #aaaaaa;
+                    }
+
+                    &:-moz-placeholder {
+                        color: #aaaaaa;
+                        opacity: 1;
+                    }
                 }
+
                 input[type="submit"] {
                     background: @input-button;
                     cursor: pointer;
