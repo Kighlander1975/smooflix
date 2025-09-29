@@ -137,3 +137,100 @@ h6 {
   margin-bottom: 1rem;
   font-size: 0.8em;
 }
+.wrapper main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #eee;
+  flex: 1;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.wrapper main section#inputs {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+.wrapper main section#inputs div {
+  flex: 1;
+  max-width: 45%;
+}
+.wrapper main section#inputs div input {
+  width: 100%;
+  border: 1px solid #d3d3d3;
+  border-radius: 25px;
+  padding: 13px 15px;
+  box-sizing: border-box;
+}
+.wrapper main section#inputs div input[type="submit"] {
+  background: linear-gradient(135deg, #8b7ed8 0%, #6b5895 100%);
+  cursor: pointer;
+  color: #fff;
+  border: 3px solid transparent;
+  font-weight: normal;
+  letter-spacing: normal;
+  transition: all 0.3s ease;
+}
+.wrapper main section#inputs div input[type="submit"]:hover {
+  background: linear-gradient(135deg, #8b7ed8 0%, #7c3aed 100%);
+  border: 3px solid #000;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.wrapper main section#content {
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 25px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: stretch;
+  gap: 1rem;
+}
+.wrapper main section#content h2,
+.wrapper main section#content h4 {
+  text-align: center;
+}
+.wrapper main section#content img {
+  align-self: center;
+  width: 50%;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+.wrapper main section#content .smoothieButton {
+  align-self: center;
+  border: 0;
+  border-radius: 25px;
+  padding: 13px 15px;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #ff6b6b 0%, #ffb347 100%);
+  color: #fff;
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.wrapper main section#content .smoothieIngredientsList {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+}
+.wrapper main section#content .smoothieIngredientsList .smoothieIngredient {
+  border-left: 5px solid #7868ee;
+  border-radius: 10px;
+  border-bottom: 3px solid #eee;
+  border-right: 3px solid #eee;
+  padding: 0.5rem 0.5rem;
+  margin-bottom: 1rem;
+}

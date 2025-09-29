@@ -1,0 +1,172 @@
+{
+  "zutaten": [
+    {
+      "eingabe": ["ananas", "ananas stücke", "ananasscheiben"],
+      "standard": "Ananas"
+    },
+    {
+      "eingabe": ["apfel", "äpfel", "apfelstücke"],
+      "standard": "Äpfel"
+    },
+    {
+      "eingabe": ["aprikose", "aprikosen"],
+      "standard": "Aprikosen"
+    },
+    {
+      "eingabe": ["avocado", "avocados"],
+      "standard": "Avocado"
+    },
+    {
+      "eingabe": ["banane", "bananen"],
+      "standard": "Bananen"
+    },
+    {
+      "eingabe": ["beere", "beeren", "beerenmischung"],
+      "standard": "Beeren"
+    },
+    {
+      "eingabe": ["birne", "birnen"],
+      "standard": "Birnen"
+    },
+    {
+      "eingabe": ["blaubeere", "blaubeeren", "heidelbeere", "heidelbeeren"],
+      "standard": "Blaubeeren"
+    },
+    {
+      "eingabe": ["brombeere", "brombeeren"],
+      "standard": "Brombeeren"
+    },
+    {
+      "eingabe": ["chiasamen", "chia", "chia samen", "chia-samen"],
+      "standard": "Chiasamen"
+    },
+    {
+      "eingabe": ["dattel", "datteln"],
+      "standard": "Datteln"
+    },
+    {
+      "eingabe": ["erdbeere", "erdbeeren"],
+      "standard": "Erdbeeren"
+    },
+    {
+      "eingabe": ["feige", "feigen"],
+      "standard": "Feigen"
+    },
+    {
+      "eingabe": ["granatapfel", "granatäpfel", "granatapfelkerne"],
+      "standard": "Granatapfel"
+    },
+    {
+      "eingabe": ["grapefruit", "grapefruits"],
+      "standard": "Grapefruit"
+    },
+    {
+      "eingabe": ["gurke", "gurken", "salatgurke", "salatgurken"],
+      "standard": "Gurke"
+    },
+    {
+      "eingabe": ["haferflocken", "hafer", "haferflocke"],
+      "standard": "Haferflocken"
+    },
+    {
+      "eingabe": ["himbeere", "himbeeren"],
+      "standard": "Himbeeren"
+    },
+    {
+      "eingabe": ["honig"],
+      "standard": "Honig"
+    },
+    {
+      "eingabe": ["ingwer", "ingwerstück", "ingwerstücke"],
+      "standard": "Ingwer"
+    },
+    {
+      "eingabe": ["johannisbeere", "johannisbeeren", "johannisbeer"],
+      "standard": "Johannisbeeren"
+    },
+    {
+      "eingabe": ["joghurt", "naturjoghurt", "jogurt"],
+      "standard": "Joghurt"
+    },
+    {
+      "eingabe": ["kakao", "kakaopulver"],
+      "standard": "Kakao"
+    },
+    {
+      "eingabe": ["kiwi", "kiwis"],
+      "standard": "Kiwi"
+    },
+    {
+      "eingabe": ["kokosmilch", "kokos", "kokosnuss", "kokosnussmilch"],
+      "standard": "Kokosmilch"
+    },
+    {
+      "eingabe": ["leinsamen", "lein", "leinsaat"],
+      "standard": "Leinsamen"
+    },
+    {
+      "eingabe": ["limette", "limetten", "lime"],
+      "standard": "Limette"
+    },
+    {
+      "eingabe": ["mandel", "mandeln", "mandelmilch"],
+      "standard": "Mandeln"
+    },
+    {
+      "eingabe": ["mango", "mangos"],
+      "standard": "Mango"
+    },
+    {
+      "eingabe": ["melone", "melonen", "wassermelone", "honigmelone"],
+      "standard": "Melone"
+    },
+    {
+      "eingabe": ["milch", "kuhmilch"],
+      "standard": "Milch"
+    },
+    {
+      "eingabe": ["nektarine", "nektarinen"],
+      "standard": "Nektarinen"
+    },
+    {
+      "eingabe": ["orange", "orangen"],
+      "standard": "Orangen"
+    },
+    {
+      "eingabe": ["papaya", "papayas"],
+      "standard": "Papaya"
+    },
+    {
+      "eingabe": ["pfirsich", "pfirsiche"],
+      "standard": "Pfirsiche"
+    },
+    {
+      "eingabe": ["pflaume", "pflaumen", "zwetschge", "zwetschgen"],
+      "standard": "Pflaumen"
+    },
+    {
+      "eingabe": ["quark"],
+      "standard": "Quark"
+    },
+    {
+      "eingabe": ["spinat", "blattspinat"],
+      "standard": "Spinat"
+    },
+    {
+      "eingabe": ["vanille", "vanilleextrakt", "vanillearoma"],
+      "standard": "Vanille"
+    },
+    {
+      "eingabe": ["walnuss", "walnüsse"],
+      "standard": "Walnüsse"
+    },
+    {
+      "eingabe": ["zimt", "zimtpulver"],
+      "standard": "Zimt"
+    },
+    {
+      "eingabe": ["zitrone", "zitronen", "zitronensaft"],
+      "standard": "Zitrone"
+    }
+  ]
+}

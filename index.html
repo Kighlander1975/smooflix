@@ -1,25 +1,49 @@
 <DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>smooflix - Projekt</title>
-    <link rel="stylesheet" href="./css/styles.css">
-</head>
-<body>
-    <div class="wrapper">
-        <header>
-            <h1>Smooflix</h1>
-            <p>Entdecke deinen perfekten Smoothie</p>
-        </header>
-        <main>
-            <section id="inputs">
-                <label for="smoothieName" hidden>Smoothie Name</label>
-                <input type="text" id="smoothieName" placeholder="Smoothie Name">
-                <input type="submit" value="Smoothie generieren">
-            </section>
-            <section id="content"></section>
-        </main>
-    </div>
-</body>
-</html>
+    <html lang="de">
+        <head>
+            <meta charset="UTF-8" />
+            <meta
+                name="viewport"
+                content="width=device-width, initial-scale=1.0"
+            />
+            <title>smooflix - Projekt</title>
+            <link rel="icon" href="data:,">
+            <link rel="stylesheet" href="./css/styles.css" />
+        </head>
+        <body>
+            <div class="wrapper">
+                <header>
+                    <h1>Smooflix</h1>
+                    <p>Entdecke deinen perfekten Smoothie</p>
+                </header>
+                <main>
+                    <section id="inputs">
+                        <div>
+                            <label for="smoothieName" hidden
+                                >Smoothie Name</label
+                            >
+                            <input
+                                type="text"
+                                id="smoothieName"
+                                placeholder="Smoothie Name"
+                            />
+                        </div>
+                        <div>
+                            <input type="submit" id="submit" value="Smoothie generieren" />
+                        </div>
+                    </section>
+                    <section id="content">
+                        <h2 class="smoothieName">Smoothie Name</h2>
+                        <img class="smoothiePicture" src="https://picsum.photos/200/300" alt="">
+                        <button class="smoothieButton">Attributes</button>
+                        <h4>Zutaten</h4>
+                        <ul class="smoothieIngredientsList">
+                            <li class="smoothieIngredient">Zutat 1</li>
+                        </ul>
+                    </section>
+                </main>
+            </div>
+            <script src="./ressources/js/home.js"></script>
+        </body>
+    </html>
+</DOCTYPE>

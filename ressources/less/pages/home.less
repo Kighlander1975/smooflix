@@ -10,7 +10,8 @@
         background: @main-button;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
-        h1, p {
+        h1,
+        p {
             text-align: center;
             color: @text-color-secondary;
         }
@@ -23,6 +24,111 @@
         p {
             margin-bottom: 1rem;
             font-size: 0.8em;
+        }
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: @regular-color-1;
+        flex: 1;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        section#inputs {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            padding-left: 8rem;
+            padding-right: 8rem;
+
+            div {
+                flex: 1;
+                max-width: 45%;
+
+                input {
+                    width: 100%;
+                    border: 1px solid @regular-color-2;
+                    border-radius: 25px;
+                    padding: 13px 15px;
+                    box-sizing: border-box;
+                }
+                input[type="text"] {
+                    // Spezifische Stile für Textfelder
+                }
+                input[type="submit"] {
+                    background: @input-button;
+                    cursor: pointer;
+                    color: @text-color-secondary;
+                    border: 3px solid transparent;
+                    font-weight: normal;
+                    letter-spacing: normal;
+                    transition: all 0.3s ease; // Animation für alle Änderungen
+                }
+                input[type="submit"]:hover {
+                    background: @input-button-hover;
+                    border: 3px solid @text-color-primary;
+                    font-weight: bold;
+                    letter-spacing: 1px; // Erhöhter Buchstabenabstand
+                }
+            }
+        }
+
+        section#content {
+            padding: 2rem;
+            background-color: @text-color-secondary;
+            border-radius: 25px;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            margin-bottom: 1rem;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: stretch;
+            gap: 1rem;
+
+            h2,
+            h4 {
+                text-align: center;
+            }
+
+            img {
+                align-self: center;
+                width: 50%;
+                height: auto;
+                max-width: 100%;
+                object-fit: contain;
+            }
+
+            .smoothieButton {
+                align-self: center;
+                border: 0;
+                border-radius: 25px;
+                padding: 13px 15px;
+                box-sizing: border-box;
+                background: @main-button;
+                color: @text-color-secondary;
+                .text-strong();
+            }
+
+            .smoothieIngredientsList {
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+                list-style-type: none;
+                .smoothieIngredient {
+                    border-left: 5px solid @regular-color-3;
+                    border-radius: 10px;
+                    border-bottom: 3px solid @regular-color-1;
+                    border-right: 3px solid @regular-color-1;
+                    padding: 0.5rem 0.5rem;
+                    margin-bottom: 1rem;
+                }
+            }
         }
     }
 }
