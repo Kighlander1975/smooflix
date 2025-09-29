@@ -41,6 +41,10 @@
       "standard": "Chiasamen"
     },
     {
+      "eingabe": ["Drachenfrucht", "Drachen", "drachen", "dragon"],
+      "standard": "Drachenfrucht"
+    },
+    {
       "eingabe": ["dattel", "datteln"],
       "standard": "Datteln"
     },
